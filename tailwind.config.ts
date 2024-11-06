@@ -11,9 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'chorme-yellow': "#FFC312",
+        'vibrant-yellow': "#F79F1F",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
