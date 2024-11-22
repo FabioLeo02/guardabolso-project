@@ -1,3 +1,6 @@
+import LoginModal from "@/components/LoginModal"
+import CadastroModal from "@/components/CadastroModal"
+
 export default function Home() {
     return (
         <div className="flex flex-col min-h-screen bg-white text-gray-800">
@@ -5,8 +8,8 @@ export default function Home() {
             <header className="flex justify-between bg-yellow-600 items-center p-6 shadow-md">
                 <div className="text-2xl font-bold text-white">GuardaBolso</div>
                 <div className="flex space-x-4">
-                    <a href="/login" className="text-white font-bold pt-2 pr-5 hover:text-gray-800">Login</a>
-                    <a href="/signup" className="px-4 py-2  bg-yellow-500 text-white rounded font-bold hover:bg-yellow-300">Cadastro</a>
+                    <LoginModal />
+                    <CadastroModal />
                 </div>
             </header>
 
