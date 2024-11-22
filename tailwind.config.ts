@@ -14,6 +14,10 @@ const config: Config = {
         'chorme-yellow': "#FFC312",
         'vibrant-yellow': "#F79F1F",
       },
+      spacing: {
+        '549px': '549px',
+        '800px': '800px',
+      },
     },
   },
   plugins: [],
