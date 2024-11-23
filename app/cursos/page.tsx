@@ -24,6 +24,7 @@ export default function Cursos() {
                         <CursoItem
                             icon="💲"
                             title="O que é Dinheiro?"
+                            link="/cursos/atv1"
                             style="absolute top-20 left-10"
                         />
                         <CursoItem
